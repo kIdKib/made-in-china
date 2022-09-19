@@ -1,0 +1,158 @@
+.mySlides {display: none;}
+
+.mySlides img{
+    min-width: 800px;
+    max-width: 800px;
+    max-height: 450px;
+    object-fit: fill;
+    
+    
+}
+
+/* Slideshow container */
+   .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+
+#first-body-carousel{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.carousel-bottom{
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+}
+
+.carousel-bottom-items{
+  position: relative;
+  width: 200px;
+  height: 140px;
+  overflow: hidden;
+}
+
+.span-carousel-bottom{
+  position: absolute;
+  margin: 15px;
+  color: black;
+  z-index: 20;
+}
+.carousel-bottom-items img{
+  width: 100%;
+  height: 11em;
+  z-index: 5;
+  object-fit: cover ;
+  position: relative;
+  top: -15px;
+}
+
+.left-first-body{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px 20px 20px;
+  width: 18rem;
+}
+
+.image-left-first-body-kids{
+  margin: 15px 0;
+  display: flex;
+  width: 200px;
+  flex-direction: row;
+
+  position: relative;
+}
+
+.text-kid-image{
+  position: absolute;
+  right: 0px;
+  color: black;
+  font-size: 0.7rem;
+}
+
+.image-kid{
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+
+}
+
+#button-request{
+  border: #E64545 solid 1px;
+  background-color: white;
+  display: flex;
+  width: 90%;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  font-size: .88em;
+}
+
+
+#button-request:hover{
+  background-color: #E64545 ;
+  color: white;
+}
+

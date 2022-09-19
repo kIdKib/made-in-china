@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="carousel.css">
+    <link rel="stylesheet" href="grids.css">
+    <script src="https://kit.fontawesome.com/66043f69e1.js" crossorigin="anonymous"></script>
+    <script defer src="main.js"></script>
+
+
+</head>
+<body>
+    <div class="icone-rigth-fixed">
+
+        <a href="#"> 
+            <div class="icone">
+                <img src="images/crosshairs-solid.svg" alt="icone">
+            </div>
+        </a>
+        <a href="#">
+            <div class="icone">
+                <img src="images/icons8-headset-100.png" alt="icone">
+            </div>
+        </a>
+        <a href="#">
+            <div class="icone">
+                <img src="images/icons8-smartphone-100.png" alt="icone">
+            </div>
+        </a>
+        <a id="scroller" href="lien.html">
+            <div class="icone fleche">
+                <div  class="icone-fleche" style="height: 25px; width:25px; border-top: solid black; border-left: solid black; transform: rotate(45deg);">
+
+                </div>
+            </div>
+        </a>
+
+    </div>
+    <header>
+        <div>
+            <img src="images/logo-made-in-china.jpg" alt="logo">
+            
+            <!--The Header Nav-->
+            <div id="theHeader">
+
+                <nav id="first-part-header">
+                    <ul id="firstUl">
+                        <li class="firstUl-Child"><a href="#">Products</a></li>
+                        <li class="firstUl-Child"><a href="#">Suppliers</a></li>
+                        <li class="firstUl-Child"><a href="#">Sourcing Requests</a></li>
+                    </ul>
+
+                    <ul id="secondUl">
+                        <li class="secondUl-Child dropdown">
+                                                        
+                            <a href="#" class="dropbtn">For Buyer</a>
+                            <div class="dropdown-content">
+
+                                <div class="dropdown-content-left">
+                                    <span class="title-dropdown-content">Search Products & Suppliers</span>
+                                    <a href="#">Product Directory</a>
+                                    <a href="#">Supplier Discovery</a>
+                                    <a href="#">Video Channel</a>
+                                    <a style="margin-bottom: 25px;" href="#">Post Sourcing Request</a>
+                                        
+                                    <span class="title-dropdown-content">Sourcing Solutions</span>
+                                    <a href="#">Source from Industry Hubs</a>
+                                    <a href="#">Customize Your Products</a>
+                                    <a href="#">MEI Awards-Winning Products</a>
+                                    <a href="#">Smart Expo</a>
+                                </div>
+
+                                <div class="dropdown-content-rigth">
+                                    <span class="title-dropdown-content">Service</span>
+                                    <a href="#">New User Guide</a>
+                                    <a href="#">Star Buyer</a>
+                                    <a href="#">Product Alert</a>
+                                    <a href="#">Supplier Audit Report</a>
+                                    <a href="#">Meet suppliers</a>
+                                    <a href="#">Online Trading</a>
+                                    <a style="margin-bottom: 25px;" href="#">Contact Us</a>
+
+                                    <span class="title-dropdown-content">Quick Links</span>
+                                    <a href="#">My Favorites</a>
+                                    <a href="#">Recent Visit History</a>
+                                </div>
+                            </div>                                                    
+                        </li>
+
+                        <li class="secondUl-Child dropdown">                            
+                            <a href="#" class="dropbtn" >For Supplier</a>
+                            <div class="dropdown-content">
+
+                                <div class="dropdown-content-chinese">
+                                    <a href="#">个东西s</a>
+                                    <a href="#">其他</a>
+                                    <a href="#">瞧</a>
+                                    <a href="#">你看我很好</a>
+                                    <a href="#">Search Sourcing Request</a>
+                                    <a href="#">Import & Export Service</a>
+                                    <a href="#">我希望能给你留下深刻印象</a>
+                                    <div id="line-chinese"></div>
+                                    <div style="display: flex; justify-content:center;">
+                                        <button class="chinese-button" style="width: 100px;">玩得开心</button>
+                                        <button class="chinese-button" >是的</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="secondUl-Child dropdown">
+                            <a href="#">Get Apps</a>
+                            <div class="dropdown-content">
+
+                                <div style="padding: 20px 0 0 10px ; line-height: 20px;" class="dropdown-content-chinese">
+                                  <p style="font-weight: bold;">Download App!</p>
+                                  <p>Explore App Exclusive Discounts</p>
+                                  <div class="QR-link">
+                                    <a href="#"><img src="images/QR-code.png" alt="QR-code"></a>
+                                    <a href="#"><img src="images/play-app-store.png" alt="play-app-store-icone"></a>
+                                  </div>
+                                </div>
+                            </div>
+
+                        </li>
+                        
+                        <li class="secondUl-Child"><a href="#">English</a></li>
+                    </ul>
+                </nav>
+
+                <div id="second-part-header">
+                    <div id="searchBar">
+                        <input type="text" name="" id="input" placeholder="Enter a keyword to search products">
+                        <button id="searchButton">Search</button>
+                    </div>
+
+                    <div>
+                        <img src="images/user-regular.svg" alt="user" srcset="" class="userbucket-Logo">
+                       <p style="margin-left: 10px;">
+                        <a href="#" style="display: block;">Sign in</a>
+                        <a href="#">Join Free</a>
+                       </p>
+                    </div>
+
+                    <div>
+                        <img src="images/cart-shopping-solid.svg" alt="cart" srcset="" class="userbucket-Logo">
+                        <a href="#" style="margin-left: 10px ;">Inquiry Basket</a>
+                    </div>
+                </div>
+
+
+            </div>
+            
+
+        </div>
+    </header>
+
+    <!-----------------CAROUSEL----------------->
+    <div style="background-color:#F0F1F2 ; padding-top: 30px;">
+        <div id="first-body-carousel" style="background-color: white;">
+
+            <div id="first-body">
+                <aside class="categories">
+                    <h4 style="margin: 20px 30px;">Categories</h4>
+                    <a href="#" class="differents-categories">Manufacturing</a>
+                    <a href="#" class="differents-categories">Consumer Electronics</a>
+                    <a href="#" class="differents-categories">Industrial Equipement</a>
+                    <a href="#" class="differents-categories">Elictrical & Electronics</a>
+                    <a href="#" class="differents-categories">Construction and decoration</a>
+                    <a href="#" class="differents-categories">Ligth Industry & Daily Use</a>
+                    <a href="#" class="differents-categories">Auto Motorcycle Parts & Accessoires</a>
+                    <a href="#" class="differents-categories">Apparel & Accesoires</a>
+                    <a href="#" class="differents-categories">Ligths & ligthing</a>
+                    <a href="#" class="differents-categories">Sporting Goods & Recreation</a>
+                    <a href="#" class="differents-categories">Transportation</a>
+                    <a href="#" class="differents-categories">Arts & Craft</a>
+                    <a href="#" class="differents-categories">Health & Medicine</a>
+                    <a href="#" class="differents-categories">Packaging &  Printing</a>
+                    <a href="#" class="differents-categories">Computer Products</a>
+                    <a href="#" class="differents-categories">More categories > </a>
+                </aside>
+            </div>
+
+            <div>
+
+                <div id="carousel">
+                    <div class="slideshow-container">
+
+                        <div style="display: block;" class="mySlides fade">
+                        <img src="images/advert/stylish-advert.webp" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides fade">
+                        <img src="images/advert/car-advert.jpg" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides fade">
+                        <img src="images/advert/computer-advert.jpg" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides fade">
+                        <img src="images/advert/phone-advert.jpg" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides fade">
+                        <img src="images/advert/xbox-advert.jpg" style="width:100%">
+                        </div>
+                        
+                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                        <a class="next" onclick="plusSlides(1)">❯</a>
+                        
+                    </div>
+                        
+                        
+                    <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    <span class="dot" onclick="currentSlide(4)"></span> 
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    </div>
+
+                
+
+                </div> 
+
+                <div class="carousel-bottom">
+                    <div class="carousel-bottom-items">
+                        <span class="span-carousel-bottom">SMART EXPO</span>
+                        <img src="images/product/computer1.jpeg" alt="" srcset="">
+                    </div>
+                    <div class="carousel-bottom-items">
+                        <span class="span-carousel-bottom">Online Trading</span>
+                        <img src="images/product/computer2.jpg" alt="" srcset="">
+                    </div>
+                    <div class="carousel-bottom-items">
+                        <span class="span-carousel-bottom">Star Suppliers</span>
+                        <img src="images/product/computer3.jpeg" alt="">
+                    </div>
+                    <div class="carousel-bottom-items">
+                        <span class="span-carousel-bottom">Selected<br>Suppliers</span>
+                        <img src="images/product/computer6.jpeg" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="left-first-body">
+                <h2>You May Like</h2>
+
+                <div classe="image-left-first-body-parent">
+
+                    <div class="image-left-first-body-kids">
+                        <a href="#">
+                            <span class="text-kid-image"> Mini Laptop <br> 53,000+ Products</span>
+                            <img src="images/product/computer5.jpeg" class="image-kid" alt="">
+                        </a>
+                    </div>
+
+                    <div class="image-left-first-body-kids">
+                        <a href="#">
+                            <span class="text-kid-image"> MID <br> 633,000+ Products </span>
+                            <img src="images/product/computer6.jpeg" class="image-kid" alt="">
+                        </a>
+                    </div>
+
+                    <div class="image-left-first-body-kids">
+                        <a href="#">
+                            <span class="text-kid-image"> Tablet PC <br> 56,000+ Products</span>
+                            <img src="images/product/computer2.jpg" class="image-kid" alt="">
+                        </a>
+                    </div>
+
+                    <div class="image-left-first-body-kids">
+                        <a href="#">
+                            <span class="text-kid-image"> Mini PC <br> 97,000+ Products</span>
+                            <img src="images/product/computer3.jpeg" class="image-kid" alt="">
+                        </a>
+                    </div>
+
+                    <div class="image-left-first-body-kids">
+                        <a href="#">
+                            <span class="text-kid-image"> Mini Computer <br> 225,000+ Products</span>
+                            <img src="images/product/computer4.jpg" class="image-kid" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <p style="margin: 15px 0;">No desirable products?</p>
+                <button id="button-request">Post Your Request Now</button>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="father-trending-products">
+        <div class="trending-products" >    
+            <h2 class="trending-text">Selected Trending Products </h2>
+            <div class="trend-product-grid">
+                <div>
+                    <img src="images/product/computer5.jpeg" alt="" class="trend-product-picture">
+                    <p class="text-trends">computer</p>
+                </div>
+
+                <div>
+                    <img src="images/product/computer4.jpg" alt="" class="trend-product-picture">
+                    <p class="text-trends">computer</p>
+                </div>
+
+                <div>
+                    <img src="images/product/computer2.jpg" alt="" class="trend-product-picture">
+                    <p class="text-trends">computer</p>
+                </div>
+
+                <div>
+                    <img src="images/product/computer4.jpg" alt="" class="trend-product-picture">
+                    <p class="text-trends">computer</p>
+                </div>
+
+                <div>
+                    <img src="images/product/computer1.jpeg" alt="" class="trend-product-picture">
+                    <p class="text-trends">computer</p>
+                </div>
+
+                <div>
+                    <img src="images/product/computer5.jpeg" alt="" class="trend-product-picture">
+                    <p class="text-trends">computer</p>
+                </div>
+
+                <div>
+                    <img src="images/product/computer3.jpeg" alt="" class="trend-product-picture">
+                    <p class="text-trends">computer</p>
+                </div>
+
+                <div>
+                    <img src="images/product/computer1.jpeg" alt="" class="trend-product-picture">
+                    <p class="text-trends">computer</p>
+                </div>
+
+                <div>
+                    <img src="images/product/computer5.jpeg" alt="" class="trend-product-picture">
+                    <p class="text-trends">computer</p>
+                </div>
+
+                <div>
+                    <img src="images/product/computer4.jpg" alt="" class="trend-product-picture">
+                    <p class="text-trends">computer</p>
+                </div>
+
+                <div>
+                    <img src="images/product/computer2.jpg" alt="" class="trend-product-picture">
+                    <p class="text-trends">computer</p>
+                </div>
+
+                <div>
+                    <img src="images/product/computer3.jpeg" alt="" class="trend-product-picture">
+                    <p class="text-trends">computer</p>
+                </div>          
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="father-trending-products">
+        <div class="trending-products2">    
+            <div class="corner-picture">
+                <div class="corner-picture-text">
+                    <p style="color:white ;" >Computer Product</p>
+                    <button>Source Now</button>
+                </div>
+                <img class="computer-corner" src="images/computer-corner.jpg" alt="">
+            </div>
+
+
+            <div class="trend-product-grid2">
+                <div>
+                    <img src="images/product/computer5.jpeg" alt="" class="trend-product-picture">
+                    <p class="text-trends">computer</p>
+                </div>
+
+                <div>
+                    <img src="images/product/computer4.jpg" alt="" class="trend-product-picture">
+                    <p class="text-trends">computer</p>
+                </div>
+
+                <div>
+                    <img src="images/product/computer2.jpg" alt="" class="trend-product-picture">
+                    <p class="text-trends">computer</p>
+                </div>
+
+                <div>
+                    <img src="images/product/computer4.jpg" alt="" class="trend-product-picture">
+                    <p class="text-trends">computer</p>
+                </div>
+
+                <div>
+                    <img src="images/product/computer1.jpeg" alt="" class="trend-product-picture">
+                    <p class="text-trends">computer</p>
+                </div>
+
+                <div>
+                    <img src="images/product/computer5.jpeg" alt="" class="trend-product-picture">
+                    <p class="text-trends">computer</p>
+                </div>
+
+                <div>
+                    <img src="images/product/computer3.jpeg" alt="" class="trend-product-picture">
+                    <p class="text-trends">computer</p>
+                </div>
+
+                <div>
+                    <img src="images/product/computer1.jpeg" alt="" class="trend-product-picture">
+                    <p class="text-trends">computer</p>
+                </div>
+        
+                
+            </div>
+        </div>
+    </div>
+
+
+    <div class="father-trending-products">
+        <div class="trending-products2">    
+            <div class="corner-picture">
+                <div class="corner-picture-text">
+                    <p style="color:white ;" >Computer Product</p>
+                    <button>Source Now</button>
+                </div>
+                <img class="computer-corner" src="images/computer-corner.jpg" alt="">
+            </div>
+
+            
+            <div class="trend-product-grid2">
+                <div>
+                    <img src="images/product/computer5.jpeg" alt="" class="trend-product-picture">
+                    <p class="text-trends">computer</p>
+                </div>
+
+                <div>
+                    <img src="images/product/computer4.jpg" alt="" class="trend-product-picture">
+                    <p class="text-trends">computer</p>
+                </div>
+
+                <div>
+                    <img src="images/product/computer2.jpg" alt="" class="trend-product-picture">
+                    <p class="text-trends">computer</p>
+                </div>
+
+                <div>
+                    <img src="images/product/computer4.jpg" alt="" class="trend-product-picture">
+                    <p class="text-trends">computer</p>
+                </div>
+
+                <div>
+                    <img src="images/product/computer1.jpeg" alt="" class="trend-product-picture">
+                    <p class="text-trends">computer</p>
+                </div>
+
+                <div>
+                    <img src="images/product/computer5.jpeg" alt="" class="trend-product-picture">
+                    <p class="text-trends">computer</p>
+                </div>
+
+                <div>
+                    <img src="images/product/computer3.jpeg" alt="" class="trend-product-picture">
+                    <p class="text-trends">computer</p>
+                </div>
+
+                <div>
+                    <img src="images/product/computer1.jpeg" alt="" class="trend-product-picture">
+                    <p class="text-trends">computer</p>
+                </div>
+        
+                
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-part">
+        <div class="form-part-parent">
+            <div class="form-parent">
+            
+                <div class="text-at-left-of-the-form">
+                    <h1>EASY SOURCING</h1>
+                    <p style="margin-bottom: 2em;">An easy way to post your sourcing requests and get quotes. </p>
+                    <p>One request, multiple quotes</p>
+                    <p>Verified suppliers matching</p>
+                    <p>Quotes comparison and sample request </p>
+                    <a href="#">Learn More</a>
+                </div>
+                
+                <form action="" class="form" >
+    
+                    <h2> Want to get quotations?</h2>
+                    <input type="text" placeholder="Product Name or Keywords" class="input1" >
+                    <textarea name="" class="input2"  rows="6.5" placeholder="Product Description"></textarea>
+                    <div style="display:flex;">
+                        <input type="text" name="" class="input3" placeholder="Purchase Quality">
+                        <select name="unit" id="">
+                            <option value="" class="unit-options">Piece(s)</option>
+                            <option value="" class="unit-options">Piece(s)</option>
+                            <option value="" class="unit-options">Piece(s)</option>
+                            <option value="" class="unit-options">Piece(s)</option>
+                            <option value="" class="unit-options">Piece(s)</option>
+                            <option value="" class="unit-options">Piece(s)</option>
+                            <option value="" class="unit-options">Piece(s)</option>
+                            <option value="" class="unit-options">Piece(s)</option>
+                            <option value="" class="unit-options">Piece(s)</option>
+                            <option value="" class="unit-options">Piece(s)</option>
+                            <option value="" class="unit-options">Piece(s)</option>
+                            <option value="" class="unit-options">Piece(s)</option>
+                            <option value="" class="unit-options">Piece(s)</option>
+                            <option value="" class="unit-options">Piece(s)</option>
+                            <option value="" class="unit-options">Piece(s)</option>
+                            <option value="" class="unit-options">Piece(s)</option>
+                            <option value="" class="unit-options">Piece(s)</option>
+                        </select>
+                    </div>
+                    <button>Post Your Request Now</button>
+                    
+    
+                </form>
+    
+    
+            </div>
+    
+    
+    
+            <img src="images/formulaire-picture.png" alt="">
+        </div>
+    </div>
+
+
+</body>
+</html>

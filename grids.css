@@ -1,0 +1,176 @@
+.father-trending-products{
+    background-color:#F0F1F2 ; 
+    padding-top: 30px
+}
+
+.trending-products{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+}
+
+
+.trend-product-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 15px ;
+}
+
+.trend-product-picture{
+    width: 10em;
+    height: 10em;
+    object-fit: contain;
+
+}
+
+
+.text-trends{
+    text-align: center;
+}
+
+.trend-product-grid > div{
+    margin-bottom: 10px;
+}
+
+.trend-product-picture:hover{
+    width: 15em ;
+}
+
+.trend-product-grid div:hover{
+  color: #E64545;
+}
+
+.trending-products2{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    position: relative;
+}
+
+.corner-picture-text{
+    position: absolute;
+    margin: 20px;
+}
+
+.corner-picture-text button{
+    width: 7em;
+    height: 30px;
+    border: none;
+    margin-top: 15px;
+    background-color: #E64545;
+    color: white;
+    cursor: pointer;
+}
+
+.computer-corner{
+    width: 18em;
+    height: 25em;
+}
+
+
+
+.trend-product-grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 15px ;
+    flex-grow: 1;
+}
+
+
+.form-part{
+    background-color: #F0F1F2 ;
+    padding-top: 30px;
+}
+
+.form-part-parent{
+    width: 90%;
+    margin: auto;
+
+}
+
+.form-parent{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 0 50px;    
+    color: gray;
+    width: 88%;
+ 
+}
+
+.text-at-left-of-the-form p{
+    line-height: 1.33em;
+}
+
+.text-at-left-of-the-form h1{
+    margin-bottom: 20px;
+} 
+
+.form{
+    background-color: white;
+    width: 40em;
+    padding: 25px;
+}
+
+.form input, .form textarea{
+    display: block;
+    margin: 15px;
+}
+
+.input1{
+    display: block;
+    margin: 15px;
+    width: 90%;
+    padding-bottom: 25px ;
+}
+.input2{
+    margin: 15px;
+    width: 90%;
+}
+.input3{
+    height: 40px;
+    margin: 15px;
+    width: 25%;
+    padding-bottom: 25px ;
+}
+select{
+    margin: auto 15px;
+    height: 40px;
+    width: 25%;
+    background-color: #d0d0d7d2;
+    border: none;
+    
+}
+
+
+.form textarea{
+    display: block;
+    margin: 15px;
+}
+
+.form button{
+    margin-left: 15px;
+    height: 40px;
+    width: 30%;
+    background-color: #f83535;
+    color: white;
+    border: none;
+}
+.form button:hover{
+    background-color: #db4141;
+}
+
+.form-part-parent img{
+    width: 100%;
+    height: 27em;
+    object-fit: cover;
+}
+
+
+
+
+
+
